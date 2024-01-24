@@ -1,17 +1,17 @@
 package org.mysj.dto;
 
-public class Patient {
+public class PatientDto {
 
-    private int patientNo;
+    private String patientId;
     private String name;
     private int age;
 
-    public int getPatientNo() {
-        return patientNo;
+    public String getPatientId() {
+        return patientId;
     }
 
-    public void setPatientNo(int patientNo) {
-        this.patientNo = patientNo;
+    public void setPatientId(String patientId) {
+        this.patientId = patientId;
     }
 
     public String getName() {
